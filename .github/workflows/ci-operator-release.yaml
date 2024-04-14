@@ -23,7 +23,7 @@ env:
 jobs:
   kubearmor-operator-release:
     name: Build & Push KubeArmor Operator
-    if: github.repository == 'kubearmor/kubearmor'        
+        
     runs-on: ubuntu-20.04
     permissions:
       id-token: write

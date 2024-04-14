@@ -11,7 +11,6 @@ permissions: read-all
 jobs:
   goreleaser:
     runs-on: ubuntu-20.04
-    if: github.repository == 'kubearmor/kubearmor'
     permissions:
       contents: write
       id-token: write
